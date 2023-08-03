@@ -1,2 +1,4 @@
 #!/bin/bash
-echo '$USER is part of %s\n' $(groups)
+for i in $(groups); do
+echo '$USER is part of$i'
+done
